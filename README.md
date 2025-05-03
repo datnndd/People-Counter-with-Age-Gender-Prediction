@@ -45,9 +45,33 @@ cd People-Counter-with-Age-Gender-Prediction
 pip install -r requirements.txt
 ```
 
-## 🚀 Cách sử dụng
+## 🚀 Hướng Dẫn Sử Dụng
 
-...
+### Bước 1: Tạo vùng đếm (Polygon Zones)
+
+1. Truy cập trang web: [https://polygonzone.roboflow.com/](https://polygonzone.roboflow.com/)
+2. Tải lên khung hình (frame) từ video hoặc hình ảnh bạn muốn sử dụng làm nền tham chiếu.
+3. Chọn chế độ **Polygon Mode**.
+4. Dùng chuột để **vẽ các vùng đếm** theo hình dạng tùy ý.
+5. Sau khi vẽ xong, **sao chép tọa độ các vùng (regions)** đã tạo.
+6. Dán các tọa độ vào file `regions.json` theo định dạng mẫu đã cung cấp.
+![Giao diện trang web](use_roboflow.png)
+
+### Bước 2: Chạy chương trình
+
+Mở terminal và chạy:
+
+```bash
+python last_ver.py \
+    --source "video_test/test1.mp4" \
+    --regions_config "regions.json" \
+    --device "cpu" \
+    --view_img True \
+    --save_img True
+
+//Thay 
+--source 0: Sử dụng camera mặc định
+--source 1: Sử dụng camera ngoài
 
 ## 📊 Kết quả hiển thị
 - Số lượng người trong vùng đã định sẵn

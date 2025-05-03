@@ -9,7 +9,14 @@ Dự án AI giúc **đếm số lượng người** trong **khu vực khoanh vù
 - 📺 Hiển thị số lượng người và thông tin lên màn hình.
 
 ## 📷 Demo
-<img src="demo.gif" alt="demo" width="600"/>
+### 🎞️ Video 1:
+![Demo 1](demo/test1.gif)
+
+### 🎞️ Video 2:
+![Demo 2](demo/test2.gif)
+
+### 🎞️ Video 3:
+![Demo 3](demo/test3.gif)
 
 *Ví dụ demo đang đếm người và dự đoán thông tin trong một khu vực cụ thể.*
 

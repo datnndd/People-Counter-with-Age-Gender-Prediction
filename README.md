@@ -72,6 +72,8 @@ python last_ver.py \
 //Thay 
 --source 0: Sử dụng camera mặc định
 --source 1: Sử dụng camera ngoài
+```
+
 
 ## 📊 Kết quả hiển thị
 - Số lượng người trong vùng đã định sẵn
@@ -79,11 +81,12 @@ python last_ver.py \
 - Giới tính
 - Bounding box + ID người + Overlay trực quan
 
-
-
 ## 📁 Các tính năng có thể mở rộng thêm
 - Ghi file
 - Cải thiện khả năng nhận diện đối tượng với SAHI
 
+## Tài liệu tham khảo
+[https://polygonzone.roboflow.com/](https://github.com/ultralytics/ultralytics/blob/main/examples/YOLOv8-Region-Counter)
+[https://polygonzone.roboflow.com/](https://github.com/ultralytics/ultralytics/tree/main/examples/YOLOv8-SAHI-Inference-Video)
 ## 🤝 Đóng góp
 Mọi ý kiến đóng góp đều rất được hoan nghênh! Bạn có thể tạo `Issue` hoặc gửi `Pull Request` nếu muốn cải thiện dự án.

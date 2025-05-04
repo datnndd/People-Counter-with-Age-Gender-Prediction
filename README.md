@@ -79,6 +79,8 @@ python last_ver.py \
 - Giới tính
 - Bounding box + ID người + Overlay trực quan
 
+
+
 ## 📁 Các tính năng có thể mở rộng thêm
 - Ghi file
 - Cải thiện khả năng nhận diện đối tượng với SAHI

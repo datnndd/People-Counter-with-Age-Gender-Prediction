@@ -86,7 +86,7 @@ python last_ver.py \
 - Cải thiện khả năng nhận diện đối tượng với SAHI
 
 ## Tài liệu tham khảo
-[https://polygonzone.roboflow.com/](https://github.com/ultralytics/ultralytics/blob/main/examples/YOLOv8-Region-Counter)
-[https://polygonzone.roboflow.com/](https://github.com/ultralytics/ultralytics/tree/main/examples/YOLOv8-SAHI-Inference-Video)
+- [https://polygonzone.roboflow.com/](https://github.com/ultralytics/ultralytics/blob/main/examples/YOLOv8-Region-Counter)
+- [https://polygonzone.roboflow.com/](https://github.com/ultralytics/ultralytics/tree/main/examples/YOLOv8-SAHI-Inference-Video)
 ## 🤝 Đóng góp
 Mọi ý kiến đóng góp đều rất được hoan nghênh! Bạn có thể tạo `Issue` hoặc gửi `Pull Request` nếu muốn cải thiện dự án.
